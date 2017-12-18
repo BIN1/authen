@@ -1,0 +1,82 @@
+ul,li{
+    list-style: none;
+}
+#index{
+    .ul-items{
+        width: 100%;
+        position: absolute;
+        top: 46px;
+        bottom: 41px;
+        left: 0;
+        overflow: auto;
+    }
+    .item{
+        position: relative;
+        border-bottom: 1px solid #ddd;
+    }
+    .item div{
+        line-height: 28px;
+        vertical-align: middle;
+    }
+    .item-time{
+        display: block;
+        height: 28px;
+        line-height: 28px;
+        position: absolute;
+        right: 20px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    
+    .paddingLeft{
+        padding-left: 20px;
+    }
+    .edit-check{
+        width: 30px;
+        height: 100%;
+        position: absolute;
+        input{
+            position: absolute;
+            top: 0;bottom: 0;left: 0;right: 0;
+            margin: auto;
+        }
+    }
+    .checkitem{
+        appearance: none;
+        -webkit-appearance: none;
+        width: 20px;
+        height: 20px;
+        border: 2px solid #999;
+        border-radius: 50%;
+    }
+    .checkitem:checked{
+        background: blue;
+    }
+    .content{
+        text-indent: 16px;
+        font-size: 12px;
+    }
+    .authenName{
+        font-weight: bold;
+    }
+    .authenCode{
+        font-size: 28px;
+        color: blue;
+        font-weight: bold;
+    }
+    .darkred{
+        color: rgb(150, 63, 63);
+    }
+}
+footer{
+    position: fixed;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #ededed;
+    line-height: 40px;
+    text-align: center;
+}
